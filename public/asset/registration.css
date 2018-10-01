@@ -1,0 +1,32 @@
+
+
+.image{
+    margin-inline-start: 100px;
+    margin-inline-end: 100px
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    size: 40px;
+    color:black;
+}
+h3{
+    color: black;
+    font-family: verdana;
+    font-size: 150%;
+}
+h1{
+    color: lightcoral;
+    font-family: verdana;
+    font-size: 200%;
+}
+.header img{
+    float:left;
+    width: 80px;
+    height:80px;
+}
+label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}

@@ -1,0 +1,71 @@
+<!-- <!Doctype html> 
+<html>
+
+<head>
+    <title>Registration page</title>
+    <link rel="stylesheet" href="../asset/registration.css" <center>
+    <p><b><font color="black">
+                <font size='5'></font>
+                <font color="black" </b>
+    </p> -->
+</center>
+<div>
+    <center>
+
+        <!-- <body> -->
+                <p><b><font color="black">
+                        <font size='5'></font>
+                        <font color="black" </b>
+            </p> 
+            <h1 align=center>
+                <div class="header"><img align=center src="../template/images/image2.png" height="70px" width="70px">CHATAPP</h1>
+            <h3 align=center> REGISTRATION FORM </h3>
+            <form name="SaveForm">
+                <br>
+                <div>
+                    <p style="font-family:Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;"> <label>FIRST
+                            NAME </label><input type="text" placeholder="firstname" ng-model="user.firstname" maxlength="60"
+                            ng-pattern="/^[a-zA-Z. ]*[a-zA-Z]{1,60}$/" name="fname" required> </p> <span style="color:red" ng-show="SaveForm.fname.$dirty && SaveForm.fname.$invalid"
+                        class="ng-hide">
+                        Please Enter Valid Name.!
+                    </span>
+                </div>
+                <br>
+                <div>
+                    <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;"> <label>LAST NAME </label><input type="text"
+                            placeholder="lastname" ng-model="user .lastname" maxlength="60" ng-pattern="/^[a-zA-Z. ]*[a-zA-Z]{1,60}$/"
+                            name="lname" required> </p> <span style="color:red" ng-show="SaveForm.lname.$dirty && SaveForm.lname.$invalid"
+                        class="ng-hide">
+                        Please Enter Valid Name.!
+                    </span>
+                </div>
+                <br>
+                <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;"> <label>EMAIL ID </label><input type="text" placeholder="email"
+                        ng-model="user.email" required></p>
+                <br>
+
+                <div>
+                    <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;"> <label>MOBILE </label><input type="number"
+                            placeholder="Mobile" ng-model="user.mobile" maxlength="10" ng-pattern="/^[7-9][0-9]{9}$/" name="mobileno"
+                            required></p> <span style="color:red" ng-show="SaveForm.mobileno.$dirty && SaveForm.mobileno.$invalid"
+                        class="ng-hide">
+                        Please Enter Valid Mobile No.!
+                    </span>
+                </div>
+                <br>
+                <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;"> <label>PASSWORD </label><input type="password"
+                        placeholder="password" ng-model="user.password" required></p>
+                <button type="submit" value="Submit" ng-click="register()">Submit</button>
+                <button type="reset" value="Reset">Reset</button>
+            </form>
+            <br><p class="bg-warning" ng-show="testform.email.$invalid">Username needs to be at least 8 characters long</p>
+
+            <a href="#!/login"> Already a member? click here to go login page..</a>
+            <h4>{{message}}</h4>
+    </center>
+    </div>
+    <!-- </body>
+        
+</head>
+
+</html> -->-->

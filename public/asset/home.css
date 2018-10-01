@@ -1,0 +1,82 @@
+.container{
+    width: 1260px;
+    background-color:rgba(255, 255, 255, 0.24);
+}
+.header{
+    width: 1260px;
+    height: 100px;
+    background-color:rgba(255, 255, 255, 0.158);
+}
+.logo{
+    position:absolute;
+    top: 25px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-color:gray;
+}
+.logout{
+    
+    float: right;
+    background-color:gray;
+}
+.area{
+    width: 1260px;
+    height: 500px;
+    background-color:rgba(0, 0, 0, 0.548);
+}
+.leftarea{
+    float: left;
+    width: 435px;
+    height: 500px;
+    background-color:rgba(219, 184, 184, 0);
+}
+.rightarea{
+    float: right;
+    width: 820px;
+    height: 500px;
+    background-color:rgba(219, 184, 184, 0);
+}
+.users{
+    font-size: 25px;
+    width: 430px;
+    height: 500px;
+    color: white;
+    background-color:rgba(102, 218, 150, 0.089);
+    overflow-y: auto
+    /* background-color: red; */
+    /* opacity: 0.5;
+    filter: Alpha(opacity=10); */
+}
+.messagebox{
+    font-size: 25px;
+    color: white;
+    width: 820px;
+    height: 450px;
+    background-color:rgba(102, 218, 150, 0.089);
+    overflow-y: auto
+}
+.typing{
+    
+    width: 820px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.493);
+}
+.typingmessage{
+    float: left;
+    width: 720px;
+    height: 50px;
+    background-color:rgba(102, 218, 150, 0.089);
+}
+ 
+.send{
+    
+    float: right;
+    width: 90px;
+    height: 50px;
+    background-color:rgba(102, 218, 150, 0.089);
+} 
+p{
+    color:lightcoral;
+    font-family: verdana;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>home page</title>
+    
+</head>
+
+<body>
+    <div>
+    <link rel="stylesheet" href="../asset/home.css">
+    <div class="container">
+        <div class="header">
+                <center> <h1>ChatApp</h1></center>
+            <div class="logo" >
+                     <img src="../template/images/image2.png" height="70px" width="70px">
+            </div>
+            <div class="logout">
+                   <button type="logout" value="logout" ng-click='logout()'>logout</button> 
+            </div>
+        </div>
+        <div class="area">
+            <div class="leftarea">
+                <div class="users">
+                      <center>Contacts </center>
+                     <div><ul>
+                            <li ng-repeat="key in array1">
+                                {{key.name}} <br>
+                                {{key.email}} <hr></li>                                               
+                     </ul></div>   
+
+                </div>
+            </div>
+            <div class="rightarea">
+                <div class="messagebox">
+                        <center>ChatBox</center>
+
+                        <ul ng-repeat="data in msgList">
+                            <h5>{{data.username}}:{{data.message}}</h5>
+                            <h6><i>{{data.date | date:'medium'}}</i></h6>
+                        </ul>
+                        
+
+
+                </div>
+                <div class="typing">
+                    <div class="typingmessage"><textarea rows="3" cols="88" ng-model="message"></textarea></div>
+                    <div class="send">
+                        
+                            <button type="send" value="send" style="height:50px;width:45px"  ng-click="add()">send </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

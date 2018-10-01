@@ -1,0 +1,23 @@
+body{
+   
+    background: url('../template/images/1920x1200-data_out_145_68456473-pc-wallpapers.jpg')
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    size: 30px;
+}
+h1 {
+    color:lightcoral;
+    font-family: verdana;
+    font-size: 200%;
+}
+h4{
+    color: rgb(231, 231, 199);
+    font-family: verdana;
+    font-size: 150%;
+}
+label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}

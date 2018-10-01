@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app='chatApp'>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="asset/registration.css">
+        <link rel="stylesheet" href="asset/login.css">
+       
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.20/angular-ui-router.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-socket-io/0.7.0/socket.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+        <script src="app.js"></script>
+        <script src="controller/Registration.js"></script>
+        <script src="controller/login.js"></script>
+        <script src="controller/home.js"></script>
+        
+
+        
+
+        <script>
+            var socket = io.connect('http://localhost:8080');
+            socket.on('message', function(message) {
+                alert('The server has a message for you: ' + message);
+            })
+        </script>
+
+    </head>
+    <body >
+        <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT -->
+       <div ui-view></div>
+       
+    </body>
+    
+</html>
